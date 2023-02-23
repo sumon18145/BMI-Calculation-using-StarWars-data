@@ -20,4 +20,3 @@ BMI <- starwars_clean %>%
 Average_BMI <- BMI %>% 
   group_by(gender) %>% 
   summarise(Average_BMI = mean(BMI))
-  
